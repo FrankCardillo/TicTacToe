@@ -1,0 +1,60 @@
+body {
+  background: no-repeat center center fixed -webkit-linear-gradient(rgba(50, 0, 50, 0.8), rgba(0, 100, 100, 0.6), rgba(150, 150, 0, 0.6));
+  /* For Safari 5.1 to 6.0 */
+  
+  background: no-repeat center center fixed -o-linear-gradient(rgba(50, 0, 50, 0.8), rgba(0, 100, 100, 0.6), rgba(150, 150, 0, 0.6));
+  /* For Opera 11.1 to 12.0 */
+  
+  background: no-repeat center center fixed -moz-linear-gradient(rgba(50, 0, 50, 0.8), rgba(0, 100, 100, 0.6), rgba(150, 150, 0, 0.6));
+  /* For Firefox 3.6 to 15 */
+  
+  background: no-repeat center center fixed linear-gradient(rgba(50, 0, 50, 0.8), rgba(0, 100, 100, 0.6), rgba(150, 150, 0, 0.6));
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 3em;
+  margin-bottom: 3em;
+}
+
+li {
+  list-style: none;
+  border-style: solid;
+  display: inline;
+  padding: 2em;
+  margin: 1em;
+  background-color: #C8C9C7;
+}
+
+ul {
+  margin: 6em;
+}
+
+.Xcolor {
+  color: red;
+}
+
+.Ocolor {
+  color: blue;
+}
+
+.faded {
+  background-color: rgba(200,201,199, .1);
+  border-style: none;
+}
+
+.pieceBtn {
+  background-color: white;
+  border-style: solid;
+  color: black;
+  border-radius: .25em;
+  font-size: 2em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+#gameContainer {
+  margin-right: 2em;
+}
